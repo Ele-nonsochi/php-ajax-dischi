@@ -1,0 +1,26 @@
+.nav-bar-container{
+    height: 80px;
+    background-color: rgba(46, 58, 70, 255);
+}
+
+.main-container{
+    padding-top: 50px;
+    background-color: rgba(30, 45, 59, 255);
+}
+
+.background-card{
+    background-color: rgba(43, 58, 70, 255);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    min-height: 250px;
+}
+
+.img-album{
+    padding: 10px 10px;
+}
+
+.info-album{
+    text-align: center;
+    padding: 10px 10px;
+}
