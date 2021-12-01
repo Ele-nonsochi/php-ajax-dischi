@@ -13,8 +13,8 @@ $yearAlbum=$album["year"];
 
 ?>
 
-<div class="col">
-    <div class="background-card">
+<div class="col mb-5">
+    <div class="background-card" style="height: 100%;">
        <img class="img-album" src="<?php echo $posterAlbum?>" alt="album" >
        <div class="card-container">
        <h4 class="text-center text-white text-uppercase"><?php echo $titleAlbum ?></h4>

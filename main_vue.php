@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link rel="stylesheet" href="style/style.css">
     <title>php-ajax-dischi</title>
 </head>
@@ -14,12 +15,12 @@
     <header>
         <div class="nav-bar-container"></div>
     </header>
-    <main>
+    <main id="app">
         <div class="main-container">
             <div class="container">
               <div class="row row-cols-5">
                  <div class="col" v-for="album,i in albumsList" :key="i">
-                    <div class="background-card">
+                    <div class="background-card" style="height: 100%;">
                         <img :src="album.poster" class="img-album"  alt="album" >
                     <div class="card-container">
                         <h4 class="text-center text-white text-uppercase">{{album.title}}</h4>
