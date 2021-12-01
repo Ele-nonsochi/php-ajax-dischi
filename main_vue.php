@@ -19,7 +19,7 @@
         <div class="main-container">
             <div class="container">
               <div class="row row-cols-5">
-                 <div class="col" v-for="album,i in albumsList" :key="i">
+                 <div class="col mb-5" v-for="album,i in albumsList" :key="i">
                     <div class="background-card" style="height: 100%;">
                         <img :src="album.poster" class="img-album"  alt="album" >
                     <div class="card-container">
